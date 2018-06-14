@@ -1,6 +1,6 @@
-function (user, context, callback) {
+function (user, context, cb) {
   if (context.request.geoip) {
     user.country = context.request.geoip.country_name;
   }
-  callback(null, user, context);
+  cb(null, user, context);
 }
