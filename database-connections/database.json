@@ -25,7 +25,7 @@
     }
   },
   "strategy": "auth0",
-  "name": "Username-Password-Authentication",
+  "name": "Auth0",
   "is_domain_connection": false,
   "realms": [
     "Username-Password-Authentication"
