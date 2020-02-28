@@ -1,0 +1,26 @@
+{
+  "options": {
+    "email": true,
+    "profile": true,
+    "scope": [
+      "email",
+      "profile"
+    ]
+  },
+  "strategy": "google-oauth2",
+  "name": "google-oauth2",
+  "is_domain_connection": false,
+  "enabled_clients": [
+    "Deploy Client",
+    "auth0-delegated-admin",
+    "022d1dcd7c6d4bafa65d6719d98945d9",
+    "auth0-authz",
+    "DAE",
+    "Client 1",
+    "auth0-deploy-cli-extension",
+    "API Explorer Application",
+    "auth0-github-deploy",
+    "Apptest",
+    "Default App"
+  ]
+}

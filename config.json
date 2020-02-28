@@ -1,0 +1,7 @@
+{
+  "AUTH0_DOMAIN": "drew-auth0-new.auth0.com",
+  "AUTH0_CLIENT_ID": "H2JRpoHmD3Vwg8g5eDl8jyXM3t5c20M1",
+  "AUTH0_CLIENT_SECRET": "0DLr7L7dXJ2n9_J3Bob47qyz5ZrzXPMU8Ec-0hf2sz7-UqMhaDE9mpV7GrZR6o42",
+  "AUTH0_KEYWORD_REPLACE_MAPPINGS": { "AUTH0_TENANT_NAME": "drew-auth0-new.auth0.com" },
+  "AUTH0_ALLOW_DELETE": false
+}
