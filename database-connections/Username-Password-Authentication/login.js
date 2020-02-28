@@ -3,10 +3,7 @@ function login(email, password, callback) {
   const bcrypt = require('bcrypt');
 
   const connection = mysql.createConnection({
-    host: '1.1.1.1',
-    user: 'root',
-    password: '12345',
-    database: 'auth'
+
   });
 
   connection.connect();
