@@ -25,10 +25,10 @@
     }
   },
   "strategy": "auth0",
-  "name": "quibli",
+  "name": "Username-Password-Authentication",
   "is_domain_connection": false,
   "realms": [
-    "quibli"
+    "Username-Password-Authentication"
   ],
   "enabled_clients": [
     "Deploy Client",
