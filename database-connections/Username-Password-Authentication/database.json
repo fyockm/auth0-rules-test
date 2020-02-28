@@ -1,0 +1,46 @@
+{
+  "options": {
+    "mfa": {
+      "active": true,
+      "return_enroll_settings": true
+    },
+    "passwordPolicy": "low",
+    "brute_force_protection": true,
+    "strategy_version": 2,
+    "enabledDatabaseCustomization": false,
+    "import_mode": false,
+    "password_no_personal_info": {
+      "enable": false
+    },
+    "password_dictionary": {
+      "enable": false,
+      "dictionary": []
+    },
+    "password_history": {
+      "enable": false,
+      "size": 5
+    },
+    "password_complexity_options": {
+      "min_length": 8
+    }
+  },
+  "strategy": "auth0",
+  "name": "Auth0",
+  "is_domain_connection": false,
+  "realms": [
+    "Username-Password-Authentication"
+  ],
+  "enabled_clients": [
+    "Deploy Client",
+    "auth0-delegated-admin",
+    "022d1dcd7c6d4bafa65d6719d98945d9",
+    "auth0-authz",
+    "DAE",
+    "Client 1",
+    "auth0-deploy-cli-extension",
+    "API Explorer Application",
+    "auth0-github-deploy",
+    "Apptest",
+    "Default App"
+  ]
+}
