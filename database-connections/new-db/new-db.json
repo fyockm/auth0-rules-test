@@ -25,10 +25,10 @@
     }
   },
   "strategy": "auth0",
-  "name": "test",
+  "name": "new-db",
   "is_domain_connection": false,
   "realms": [
-    "test"
+    "new-db"
   ],
   "enabled_clients": [
   ]
