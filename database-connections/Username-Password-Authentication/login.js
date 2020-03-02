@@ -2,7 +2,9 @@ function login(email, password, callback) {
   const mysql = require('mysql');
   const bcrypt = require('bcrypt');
 
-  const connection = mysql.createConnection();
+  const connection = mysql.createConnection({
+
+  });
 
   connection.connect();
 
